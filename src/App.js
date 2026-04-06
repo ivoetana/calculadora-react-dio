@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import { Container, Content, Row } from "./styles";
+import Input from "./components/Input";
+import Button from "./components/Button/index";
+import { useState } from "react";
 
-function App() {
+const App = () => {
+  const [currentNumber, setCurrentNumber] = useState(0);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container>
+        <Content>
+          <Input value={currentNumber} />
+          <Row>
+            <Button label="7" />
+            <Button label="8" />
+            <Button label="9" />
+            <Button label="/" />
+          </Row>
+          <Row>
+            <Button label="4" />
+            <Button label="5" />
+            <Button label="6" />
+            <Button label="x" />
+          </Row>
+          <Row>
+            <Button label="1" />
+            <Button label="2" />
+            <Button label="3" />
+            <Button label="-" />
+          </Row>
+          <Row>
+            <Button label="0" />
+            <Button label="." />
+            <Button label="=" />
+            <Button label="+" />
+          </Row>
+        </Content>
+      </Container>
     </div>
   );
-}
+};
 
 export default App;
