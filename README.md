@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# 🧮 React Calculator - Operações Básicas & Histórico
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto de calculadora desenvolvido em **React** como parte do currículo da Digital Innovation One (DIO). O diferencial desta implementação é o visor de histórico em tempo real, que permite ao usuário visualizar a expressão completa antes do resultado final.
 
-## Available Scripts
+<p align="center">
+  <img src="./public/calculadora_react.gif" alt="Demonstração da Calculadora" width="300">
+</p>
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* **Operações Matemáticas:** Adição, Subtração, Multiplicação e Divisão.
+* **Visor de Histórico:** Exibe a operação anterior (ex: `10 + 20 =`) acima do número atual, melhorando a experiência do usuário.
+* **Controle de Estado:** Implementado com `useState` para gerenciar múltiplos valores e operadores.
+* **Design Moderno:** Desenvolvido com **Styled Components** para garantir uma interface limpa e responsiva.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tecnologias
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [React](https://reactjs.org/)
+* [Styled Components](https://styled-components.com/)
+* [JavaScript (ES6+)](https://262.ecma-international.org/6.0/)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚙️ Como executar o projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1.  Clone este repositório para o seu computador:
+    ```bash
+    git clone [https://github.com/ivoetana/calculadora-react-dio] (https://github.com/ivoetana/calculadora-react-dio)
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2.  Entre na pasta do projeto:
+    ```bash
+    cd calculadora-react-dio
+    ```
 
-### `npm run eject`
+3.  Instale as dependências necessárias:
+    ```bash
+    npm install
+    yarn install
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4.  Inicie o servidor de desenvolvimento:
+    ```bash
+    npm start
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+A calculadora estará rodando em `http://localhost:3000`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🌎 English Version
 
-## Learn More
+## 🧮 React Calculator - Basic Operations & History
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+A modern, responsive calculator built with **React** as part of the Digital Innovation One (DIO) bootcamp. This project features a clean UI and a real-time calculation history tracker above the main display.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Features
+* **Basic Arithmetic:** Addition, Subtraction, Multiplication, and Division.
+* **Live History:** Displays the full operation (e.g., `10 + 20 =`) above the main display.
+* **Responsive Design:** Styled components for a consistent look.
+* **Input Validation:** Handles decimal points and basic arithmetic errors.
 
-### Code Splitting
+### Technologies
+* React
+* Styled Components
+* JavaScript (ES6+)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### ✍️ Autor
+Desenvolvido por **Ivo Emanuel Tana**.
