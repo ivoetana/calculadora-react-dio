@@ -12,8 +12,10 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   background-color: white;
-  width: 60%;
-  padding-bottom: 4px;
+  width: 300px;
+  padding: 8px;
+  padding-bottom: 12px;
+  border-radius: 10px;
 `;
 
 export const Row = styled.div`
