@@ -4,7 +4,7 @@ import Button from "./components/Button/index";
 import { useState } from "react";
 
 const App = () => {
-  const [currentNumber, setCurrentNumber] = useState(0);
+  const [currentNumber, setCurrentNumber] = useState("0");
   const [primeiroValor, setPrimeiroValor] = useState("");
   const [operador, setOperador] = useState("");
   const [history, setHistory] = useState("");
